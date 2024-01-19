@@ -19,7 +19,7 @@ query = text("SELECT coordinates_latitude, coordinates_longitude, parameter, val
 engine = create_engine("mysql+mysqlconnector://{user}:{password}@{host}/{database}".format(**mysql_connection))
 
 # Replace these values with your own
-project_id = 'gentle-post-410810'
+project_id = 'projectenivironment'
 dataset_id = 'worldair'
 table_id = 'measurements'  # Define the table_id here
 
