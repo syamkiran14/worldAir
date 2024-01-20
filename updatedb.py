@@ -12,6 +12,3 @@ connection = mysql.connector.connect(
             password = db_password,
             database = db_name
         )
-
-/home/samlinux/airflow_env/airflow
-airflow users create -u airflow -f airflow -l airflow -r Admin -e airflow@gmail.com
