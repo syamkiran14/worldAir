@@ -13,7 +13,7 @@ import pandas as pd
 mysql_connection = {
     'host' : 'localhost',
     'user' : 'root',
-    'password' : 'samio.db',
+    'password' : '******',
     'database' : 'worldair'
 }
 
